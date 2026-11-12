@@ -1,27 +1,34 @@
-# SQL Police Department
+# SQL Police Department · Query Exercises
 
-Colección de consultas SQL para resolver ejercicios de análisis de datos sobre una base de datos ficticia de un departamento de policía.
+Colección de consultas SQL escritas para resolver ejercicios de análisis sobre una base de datos ficticia de un departamento de policía. El repositorio contiene las soluciones personales de los ejercicios, no la aplicación ni la base de datos original.
 
-## Contenido
+## Ejercicios
 
-El repositorio recoge consultas numeradas que practican operaciones habituales de SQL, entre ellas:
+| Ejercicio | Archivo |
+|---:|---|
+| 01 | [sql-police-department-1.sql](sql-police-department-1.sql) |
+| 02 | [sql-police-department-2.sql](sql-police-department-2.sql) |
+| 03 | [sql-police-department-3.sql](sql-police-department-3.sql) |
+| 04 | [sql-police-department-4.sql](sql-police-department-4.sql) |
+| 05 | [sql-police-department-5.sql](sql-police-department-5.sql) |
+| 06 | [sql-police-department-6.sql](sql-police-department-6.sql) |
+| 07 | [Ejercicio 7](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%207) |
+| 08 | [Ejercicio 8](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%208) |
+| 09 | [Ejercicio 9](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%209) |
+| 10 | [Ejercicio 10](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%2010) |
 
-- Selección de registros con `SELECT`.
-- Filtrado y ordenación de resultados.
-- Uso de condiciones y operadores.
-- Eliminación de duplicados.
-- Agregaciones y límites de resultados.
+## Conceptos practicados
 
-## Estructura
-
-Los archivos `SQL Police Department N.sql` contienen las soluciones de los ejercicios numerados.
+- `SELECT`, proyección de columnas y selección de registros.
+- `WHERE`, condiciones y filtrado.
+- `DISTINCT` para eliminar resultados duplicados.
+- `ORDER BY` con ordenación ascendente y descendente.
+- `LIMIT` para restringir el número de filas devueltas.
 
 ## Ejecución
 
-Las consultas deben ejecutarse en el motor SQL y sobre el esquema de base de datos proporcionado por el ejercicio. El repositorio no incluye un volcado de la base de datos, por lo que las consultas no son autónomas.
+Las consultas deben ejecutarse en el motor SQL y sobre el esquema de datos proporcionado por el ejercicio. El repositorio no incluye un volcado de la base de datos ni crea las tablas, por lo que las consultas no son autónomas.
 
-## Tecnologías
+## Autoría y atribución
 
-- SQL
-- Consultas relacionales
-- Ejercicios prácticos de lectura y agregación de datos
+Las consultas y notas son trabajo personal de práctica. El enunciado, la plataforma y el modelo de datos del ejercicio pertenecen a sus respectivos titulares.
