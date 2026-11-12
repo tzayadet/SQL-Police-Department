@@ -32,3 +32,9 @@ Las consultas deben ejecutarse en el motor SQL y sobre el esquema de datos propo
 ## Autoría y atribución
 
 Las consultas y notas son trabajo personal de práctica. El enunciado, la plataforma y el modelo de datos del ejercicio pertenecen a sus respectivos titulares.
+
+## Project showcase
+
+[Open the GitHub Pages showcase](https://tzayadet.github.io/SQL-Police-Department/) · [Showcase source](docs/index.html)
+
+The page is an index of the SQL solutions; it does not run a database engine. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
