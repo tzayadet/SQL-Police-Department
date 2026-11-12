@@ -1,10 +1,20 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/DATABASE_PRACTICE-SQL_POLICE_DEPARTMENT-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="SQL Police Department"/>
+  <img src="https://img.shields.io/badge/SQL-QUERY_EXERCISES-101010?style=for-the-badge&logo=postgresql&logoColor=00FF41" alt="SQL"/>
+</p>
+
 # SQL Police Department · Query Exercises
 
-Colección de consultas SQL escritas para resolver ejercicios de análisis sobre una base de datos ficticia de un departamento de policía. El repositorio contiene las soluciones personales de los ejercicios, no la aplicación ni la base de datos original.
+Personal SQL solutions for analytical exercises based on a fictional police-department database. This repository contains query solutions, not the original application or database.
 
-## Ejercicios
+<p align="center">
+  <a href="https://github.com/tzayadet/SQL-Police-Department/blob/main/docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://github.com/tzayadet/SQL-Police-Department"><strong>SOURCE CODE</strong></a>
+</p>
 
-| Ejercicio | Archivo |
+## Exercises
+
+| Exercise | Solution |
 |---:|---|
 | 01 | [sql-police-department-1.sql](sql-police-department-1.sql) |
 | 02 | [sql-police-department-2.sql](sql-police-department-2.sql) |
@@ -17,24 +27,26 @@ Colección de consultas SQL escritas para resolver ejercicios de análisis sobre
 | 09 | [sql-police-department-9.sql](sql-police-department-9.sql) |
 | 10 | [sql-police-department-10.sql](sql-police-department-10.sql) |
 
-## Conceptos practicados
+## Concepts practised
 
-- `SELECT`, proyección de columnas y selección de registros.
-- `WHERE`, condiciones y filtrado.
-- `DISTINCT` para eliminar resultados duplicados.
-- `ORDER BY` con ordenación ascendente y descendente.
-- `LIMIT` para restringir el número de filas devueltas.
+- `SELECT`, column projection and row selection.
+- `WHERE`, conditions and filtering.
+- `DISTINCT` for removing duplicate results.
+- `ORDER BY` for ascending and descending sorting.
+- `LIMIT` for restricting result size.
 
-## Ejecución
+## Run the exercises
 
-Las consultas deben ejecutarse en el motor SQL y sobre el esquema de datos proporcionado por el ejercicio. El repositorio no incluye un volcado de la base de datos ni crea las tablas, por lo que las consultas no son autónomas.
+Execute each query in a SQL engine against the schema provided by the exercise. The repository does not include a database dump or create the required tables, so the queries are not standalone.
 
-## Autoría y atribución
+## Attribution
 
-Las consultas y notas son trabajo personal de práctica. El enunciado, la plataforma y el modelo de datos del ejercicio pertenecen a sus respectivos titulares.
+The queries and notes are personal practice work. The challenge statement, platform and data model belong to their respective owners.
 
-## Project showcase
+## Showcase and deployment
 
-[Open the GitHub Pages showcase](https://tzayadet.github.io/SQL-Police-Department/) · [Showcase source](docs/index.html)
+The source page is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
 
-The page is an index of the SQL solutions; it does not run a database engine. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**. The workflow remains skipped until that variable is enabled.
+## License
+
+See [LICENSE](LICENSE).
