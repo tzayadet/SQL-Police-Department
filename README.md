@@ -12,10 +12,10 @@ Colección de consultas SQL escritas para resolver ejercicios de análisis sobre
 | 04 | [sql-police-department-4.sql](sql-police-department-4.sql) |
 | 05 | [sql-police-department-5.sql](sql-police-department-5.sql) |
 | 06 | [sql-police-department-6.sql](sql-police-department-6.sql) |
-| 07 | [Ejercicio 7](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%207) |
-| 08 | [Ejercicio 8](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%208) |
-| 09 | [Ejercicio 9](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%209) |
-| 10 | [Ejercicio 10](https://github.com/tzayadet/SQL-Police-Department/blob/main/SQL%20Police%20Department%2010) |
+| 07 | [sql-police-department-7.sql](sql-police-department-7.sql) |
+| 08 | [sql-police-department-8.sql](sql-police-department-8.sql) |
+| 09 | [sql-police-department-9.sql](sql-police-department-9.sql) |
+| 10 | [sql-police-department-10.sql](sql-police-department-10.sql) |
 
 ## Conceptos practicados
 
