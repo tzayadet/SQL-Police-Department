@@ -8,7 +8,7 @@
 Personal SQL solutions for analytical exercises based on a fictional police-department database. This repository contains query solutions, not the original application or database.
 
 <p align="center">
-  <a href="https://github.com/tzayadet/SQL-Police-Department/blob/main/docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://tzayadet.github.io/SQL-Police-Department/"><strong>LIVE DEMO ↗</strong></a> ·
   <a href="https://github.com/tzayadet/SQL-Police-Department"><strong>SOURCE CODE</strong></a>
 </p>
 
@@ -45,7 +45,7 @@ The queries and notes are personal practice work. The challenge statement, platf
 
 ## Showcase and deployment
 
-The source page is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. Pages deployment is gated by the `ENABLE_PAGES=true` Actions variable.
+The source page is available in [docs/index.html](docs/index.html). It indexes the SQL solutions but does not run a database engine. GitHub Pages is configured through the repository workflow in `.github/workflows/pages.yml`.
 
 ## License
 
